@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/email_in"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="54dp"
+        android:hint="Email ID"
+        android:textColor="@color/white"
+        android:textColorHint="#8D1E1C1C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pass_in"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_in"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#8D1E1C1C"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgot"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="signin"
+        android:text="SIGN IN" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="15dp"
+        android:onClick="signup"
+        android:text="SIGN UP" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_in"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="19dp"
+        android:onClick="forgot"
+        android:text="Forgot Password ?"
+        android:textColor="#CCC1C0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>

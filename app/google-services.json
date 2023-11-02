@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "332636118112",
+    "firebase_url": "https://lostfound-ecaab-default-rtdb.firebaseio.com",
+    "project_id": "lostfound-ecaab",
+    "storage_bucket": "lostfound-ecaab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332636118112:android:4a203718b327ceb3a7b705",
+        "android_client_info": {
+          "package_name": "com.example.lost_found"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332636118112-ppfnkitln33dk8dhvfvlc8kaaceeun1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmHD_9OCj2hubMzgeJ_882xExc2jU35PM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332636118112-ppfnkitln33dk8dhvfvlc8kaaceeun1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332636118112:android:b0461e7a32456b44a7b705",
+        "android_client_info": {
+          "package_name": "com.example.lostandfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332636118112-ppfnkitln33dk8dhvfvlc8kaaceeun1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmHD_9OCj2hubMzgeJ_882xExc2jU35PM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332636118112-ppfnkitln33dk8dhvfvlc8kaaceeun1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332636118112:android:402d2e1a795e1574a7b705",
+        "android_client_info": {
+          "package_name": "com.example.lostfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332636118112-ppfnkitln33dk8dhvfvlc8kaaceeun1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmHD_9OCj2hubMzgeJ_882xExc2jU35PM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332636118112-ppfnkitln33dk8dhvfvlc8kaaceeun1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
